@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+}
+
+.name {
+  color: white;
+  text-align: center;
+}
+
+.dob {
+  color: white;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  margin-left: 270px;
+  margin-right: 270px;
+  flex-direction: row;
+  height: 250px;
+}
+
+.flex-container > div {
+  background-color: white;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.text {
+  font-size: 35px;
+  width: 500px;
+}
+
+.bio {
+  margin-left: 390px;
+  color: white;
+  width: 500px;
+}
